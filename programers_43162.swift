@@ -1,5 +1,6 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/43162
-//DFS로 풀엇당
+//DFS로 풀었음. BFS도 다시공부!
+
 import Foundation
 
 var isVisted: [Bool] = Array(repeating: false, count: 200)
