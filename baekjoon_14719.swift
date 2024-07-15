@@ -33,6 +33,7 @@ for i in (0 ..< rain.count).reversed() {
 }
 
 var result = 0
+
 for i in 0 ..< rain.count {
     if tempArrayRight[i] > tempArrayLeft[i] {
         result += tempArrayRight[i]
