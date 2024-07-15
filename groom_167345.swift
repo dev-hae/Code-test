@@ -40,7 +40,6 @@ while(count < (n*n)) {
             else {
                 count += 1
             }
-            
         }
     }
 }
