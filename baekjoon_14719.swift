@@ -12,7 +12,7 @@ var nowInt = 0
 var tempArray = Array(repeating: 0, count: rain.count )
 for i in 0 ..< rain.count {
     if nowInt <= rain[i] {
-        nowInt = rain[i]
+        nowInt = rain[i] 
         tempArrayLeft = tempArray
     }
     else {
